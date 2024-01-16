@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.outlined-button {
+  border: 1px solid #2196F3;
+  color: #2196F3;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+.outlined-button:hover {
+  background-color: #2196F3;
+  color: #fff;
+}
+.splash-image{
+  width: 80%;
+  height: 80%;
+}
