@@ -130,7 +130,7 @@ const RegisterScreen = () => {
       // Register the user
       await signupUser(emailRef.current.value, passwordRef.current.value);
 
-      // Create user data
+      // Create user dat
       const userData = {
         name: nameRef.current.value,
         email: emailRef.current.value,
